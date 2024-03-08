@@ -1,0 +1,53 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+/* header style */
+header {
+
+    padding: 50px 240px;
+}
+
+.tittle-style {
+    display: flex;
+}
+
+.tittle {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: #FF5400;
+}
+
+.nav-pic {
+    margin-right: 15px;
+
+}
